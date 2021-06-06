@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="shortcut icon" href="snake.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="VelStyle.css" type="text/css" media="screen" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@1,700&display=swap" rel="stylesheet">
+
+<title>Vel</title>
+
+
+</head>
+<body>
+
+    
+
+  <div class="Left">
+
+    <h1>Vel</h1>
+
+    <img src="Vel.png" width="200" alt="Vel">
+
+    <p class= "expo">From the Southwest coast of Deep Grove, Vel lived among her kind in relative peace.  While the occasional poachers did come to pillage the wild life of the jungle and capture many of its beasts, it was the danger of freedom as wild creatures and they endured. Some of her kind were dragged off to cages and campsites, to be found later without their skin, starved, and barely living. A select few of this particular tribe had scales so beautiful that they were not allowed to keep them, Vel had such a pattern. Scales with the properties of color shifting Opal, white against the sun and black in the darkness. Underwater, it was undetectable.  
+
+        When Laencaster decided they needed the wood of the wild more than the forest did, they finally decided to address the problem of the poachers. Their solution? Bring down part of the jungle, doing a kindness to the 'uncivilized' Hengeyokai and indoctrinating them into civilization. Only a handful fought against the invasion as the force was overwhelming and the only option left was to surrender. To dress in the human clothes and learn everything from table manners, etiquette,  and the proper variation of Common so that they may leave their 'broken' variation with the Snake form behind.  
+        
+        Vel, however, proved to be a difficult individual to break in. Refusing to speak altogether, breaking things, and throwing tantrums. All form of punishment failed against her as it only fueled her rebellion. She refused to wear their clothes, to sit like they did, and used every possible opportunity to shift into her snake form and hide from sight. She preferred to be dressed in dirt and rough leathers, looking wild as she was. Eventually, she proved to be more trouble than they cared to deal with and Vel managed to slip away into The Whispering Willow. Following the river, staying out of sight, hunting and surviving on her own away from civilization, away from her kind. Till a fateful encounter allowed her the chance to venture out of the wilderness on her own terms.
+        
+        </p>
+
+    </div> 
+<div class="Right" > 
+
+<div class="tab">
+
+   
+
+    <button class="tablink" onclick="openPage('Rogue', this, 'rgba(177, 219, 98, 0.650)')" id="defaultOpen">Rogue</button>
+    <button class="tablink" onclick="openPage('Ranger', this, 'rgba(177, 219, 98, 0.650)')" >Ranger</button>
+
+
+    
+<div id="Rogue" class="tabcontent">
+    
+<h2>Rogue / <a href=https://www.dndbeyond.com/subclasses/8837-predator style="text-decoration: none; color:rgba(176, 203, 204, 0.836)" target="_blank"> Predator </a> 
+</h2>
+
+</div>
+
+<div id="Ranger" class="tabcontent">
+
+    <h2> Ranger / <a href=https://www.dndbeyond.com/subclasses/4752-forgetten-hunter style="text-decoration: none; color:rgba(176, 203, 204, 0.836)" target="_blank"> Forgotten Hunter </a> 
+
+    </h2>
+    </div>
+
+
+    
+<div>
+
+    <h3>AC: 17</h3>
+    <h3>Passive Perception: 22</h3>
+    <h3>Passive Investigation: 24</h3>
+    <h3>Passive Insight: 21 </h3>
+    <h3> Advantage: Stealth</h3>
+    <h3> Immune: Restrained</h3>
+    <h3> <a href=" https://www.dndbeyond.com/monsters/constrictor-snake" style="text-decoration: none; color:rgba(176, 203, 204, 0.836)" target="_blank" > Snake Form </a></h3>
+
+</div>
+</div>
+</div>
+
+
+   
+
+    <script>
+        function openPage(pageName,elmnt,color) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+          }
+          document.getElementById(pageName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
+
+</body>
+</html>

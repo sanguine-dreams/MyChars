@@ -1,0 +1,50 @@
+body{
+    font-family: 'Homemade Apple', cursive;
+    background-image: url(WyattBG.jpg); 
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   }
+   
+  img {
+    outline:4px solid #ffffff;
+    outline-offset:-100px;
+    border:50px solid transparent;
+    border-width:150px 50px 50px 150px;
+    opacity: 0.96;
+    height: 390px;
+
+  }
+
+  
+.imgleft {
+
+    outline:4px solid #ffffffd3;
+    outline-offset:-100px;
+    border:50px solid transparent;
+    border-width:50px 150px 150px 50px;
+    float: right;
+    opacity: 0.96;
+    height: 390px;
+    margin-right: 8%;
+    margin-top: 3%;
+
+}
+
+.imgcenter{
+    
+margin-left: 15%;
+
+}
+
+.imgo {
+ 
+    margin-left: 10%;
+    float: inline-end;
+   
+
+}

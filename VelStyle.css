@@ -1,0 +1,108 @@
+body{
+
+    margin-left: 10%;
+    margin-top: 1%;
+
+    background-image:
+    linear-gradient(35deg, rgba(199, 69, 211, 0.541), rgba(90, 148, 52, 0.616), rgba(122, 148, 52, 0.637)),
+    url(VelBG.jpg);
+    background-size: cover;
+    color: white;
+    
+	font-family:"Courier"; 
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+    .expo{ 
+        font-family: 'Special Elite', cursive;
+        line-height: 150%;
+        letter-spacing: 0.1em;
+        text-shadow: 2px 4px rgb(38, 80, 41);
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 110%;
+
+
+    }
+
+   .Left{  float:left;	width: 70%;
+}
+   .Right{ float: right; width: 28%; position: relative; margin-top: 6%;}
+   
+   img {
+    float: left; margin: 2%;
+    margin-top: 0%;
+    margin-left: 0%;
+    border-style:outset;
+    border-color: rgba(199, 147, 221, 0.555);
+  }
+
+  .tab {
+    
+   width: 100%;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: rgba(177, 219, 98, 0.493);
+  
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5% 18%;
+    transition: 0.3s;
+    border-radius: 4%;
+    text-align: center;
+    font-family: 'Averia Libre', cursive;
+    font-size: 100%;
+    color: #ddd;
+
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    text-align: center;
+    font-family: 'Averia Libre', cursive;
+    color: #ddd;
+
+   
+    
+  }
+
+  
+  h1{
+      text-align: center;
+      font-family: 'Averia Libre', cursive;
+      text-shadow: 1px 2px greenyellow;
+  }
+
+
+  h3{
+    font-weight: bold;
+    border-radius: 20px 10px; 
+    background-color: rgba(177, 219, 98, 0.377);
+    text-align: center;
+    font-family: 'Averia Libre', cursive;
+    padding-bottom: 5%;
+    color: #ddd;
+    
+ 
+    padding-top: 5%;
+  }
+ 
+  

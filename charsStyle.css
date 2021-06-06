@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+}
+
+body{
+
+    background-image:
+    linear-gradient(to bottom,  rgba(70, 4, 70, 0.493), #5a85dd54),
+    url(Tamriel.jpg);
+    width: 100%;
+    background-position: center;
+    
+
+ 
+   }
+	
+.intro
+{
+   
+    
+    width: 65%;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Yeon Sung', cursive;
+    color:black;
+    font-size: 120%;
+    background-color: #ffffffce;
+    border-radius: 3%;
+    text-shadow: 1px 0.5px rgba(226, 223, 223, 0.904);
+   
+    
+     
+}
+
+.Player{
+    text-decoration: none;
+  }
+  
+  
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 5px;
+            overflow: hidden;
+            background-color: rgba(70, 4, 70, 0.904);
+            font-family: 'Julius Sans One', sans-serif;
+            letter-spacing: 0.1em;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px 40px;
+            text-decoration: none;
+          }
+          
+          li a:hover:not(.active) {
+            background-color: #111;
+          }
+          
+          .active {
+            background-color: #04AA6D;
+          }

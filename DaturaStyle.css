@@ -1,0 +1,71 @@
+html{
+
+    height: 100%;
+}
+
+.blood{
+    opacity: 0.8;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+}
+
+body{
+  
+    background-image:
+    url(DaturaBG.jpg);
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+	}
+  
+ 
+.letter
+{
+    opacity: 0.90;
+    width: 80%;
+
+    background-image: url(DaturaLetter.png) ;
+    background-size: cover;
+    font-family: 'Homemade Apple', cursive;
+
+        color:brown;
+        transform: skewY(-8deg);
+   }
+
+   
+   p{
+        font-size: 120%;
+        padding: 8%;
+        width: 78%;
+        text-align: justify;
+        font-weight: bolder;
+        opacity: 100%;
+        text-shadow: 1px 0.5px rgba(243, 18, 18, 0.61);
+
+   }
+  
+.right{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    z-index: -1;
+    float: right;
+    margin-left: 10px;
+    padding: 3px;
+
+}
+
+   .Datura{
+   
+    transform: skewY(6deg);
+    border-radius: 8% 3%;
+    border-style: outset;
+    border-color: rgba(230, 194, 140, 0.342);
+    border-width: 8px;
+
+   }
